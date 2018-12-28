@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "633958290328",
+    "firebase_url": "https://logindemo-4edef.firebaseio.com",
+    "project_id": "logindemo-4edef",
+    "storage_bucket": "logindemo-4edef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633958290328:android:ab5caca4263e3682",
+        "android_client_info": {
+          "package_name": "com.example.prithvi.logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633958290328-c019pgb1mbhssgsvpartp6acff0buoqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAidt_Xtf2zsDFskAbjUG59QqF3eN8Gihs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
