@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkEmailVerification(){
-        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();  //the 'F' in FireBaseAuth may be small check it
+        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         boolean emailflag = firebaseUser.isEmailVerified();
 
         Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
