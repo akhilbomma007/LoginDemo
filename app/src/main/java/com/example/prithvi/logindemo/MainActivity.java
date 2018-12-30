@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         boolean emailflag = firebaseUser.isEmailVerified();
 
         Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+        finish();
         startActivity(new Intent(MainActivity.this,SecondActivity.class));
 
 //        if(emailflag){

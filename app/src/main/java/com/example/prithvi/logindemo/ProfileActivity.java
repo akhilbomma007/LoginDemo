@@ -48,6 +48,7 @@ public class ProfileActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.change_password: {
                 startActivity(new Intent(ProfileActivity.this, PasswordActivity.class));
+                return true;
             }
         }
 
