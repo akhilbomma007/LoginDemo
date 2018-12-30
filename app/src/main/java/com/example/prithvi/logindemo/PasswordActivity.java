@@ -35,7 +35,7 @@ public class PasswordActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String email = userEmail.getText().toString().trim();
 
-                progressDialog.setMessage("jarra aapuko aithadi!");
+                progressDialog.setMessage("Please Wait!");
                 progressDialog.show();
 
                 if(email.isEmpty()){
