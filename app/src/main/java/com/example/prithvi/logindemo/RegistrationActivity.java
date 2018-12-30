@@ -48,7 +48,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     String user_email = email.getText().toString().trim();
                     String user_password = password.getText().toString().trim();
 
-                    progressDialog.setMessage("jarra aapuko aithadi!");
+                    progressDialog.setMessage("please wait!");
                     progressDialog.show();
 
                     firebaseAuth.createUserWithEmailAndPassword(user_email,user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
