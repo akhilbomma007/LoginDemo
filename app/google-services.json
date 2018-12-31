@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "633958290328-qj1kjo3lb1ge6q202nou3e9kbi7ageqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prithvi.logindemo",
+            "certificate_hash": "9c0885f76aa24c79a6e240bd43d5366cd1a3394d"
+          }
+        },
+        {
           "client_id": "633958290328-c019pgb1mbhssgsvpartp6acff0buoqj.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633958290328-c019pgb1mbhssgsvpartp6acff0buoqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
