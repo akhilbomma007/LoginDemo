@@ -86,9 +86,6 @@ public class MainActivity extends AppCompatActivity {
         else if(user_password.isEmpty())
             Toast.makeText(this,"enter Password",Toast.LENGTH_SHORT).show();
         else {
-            progressDialog.setMessage("Please wait!");
-            progressDialog.show();
-
             firebaseAuth.signInWithEmailAndPassword(user_name, user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
